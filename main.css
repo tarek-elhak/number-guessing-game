@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+#app{
+    margin: 50px auto;
+    max-width: 600px;
+}
+.capitalize-first-letter::first-letter{
+    text-transform: capitalize;
+}
+.guess-label{
+    display: inline-block;
+}
+.previous-guesses{
+    display: none;
+}
+.previous-guesses.show{
+    display: block;
+}
+.game-status{
+    padding: 4px;
+    display: none;
+}
+.game-status.show{
+    display: block;
+}
+.success,.fail,.failed-guess{
+    color: #FFF;
+}
+.game-status.success{
+    background-color: green;
+}
+.game-status.fail,.game-status.failed-guess{
+    background-color: red;
+}
+.last-guess.hide{
+    display: none;
+}
+.start-new-game{
+    display: none;
+}
+.start-new-game.show{
+    display: block;
+}

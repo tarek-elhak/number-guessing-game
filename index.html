@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Number Guessing Game</title>
+        <meta name="description" content="number guessing game, guess a random selected number in only 10 trials at max !" />
+        <meta name="author" content="tarek-abdelhak" />
+        <link rel="stylesheet" href="main.css" />
+        <script defer src="index.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <h1 class="game-header capitalize-first-letter">number guessing game</h1>
+            <p class="game-description capitalize-first-letter">we have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+            <label class="guess-label capitalize-first-letter" for="guess">enter a guess</label>
+            <input class="guessed-number" type="text" name="guess" id="guess" />
+            <button class="submit-guess capitalize-first-letter">submit guess</button>
+            <p class="previous-guesses capitalize-first-letter"></p>
+            <p class="game-status capitalize-first-letter"></p>
+            <p class="last-guess capitalize-first-letter"></p>
+            <button class="start-new-game capitalize-first-letter">start new game</button>
+        </div>
+    </body>
+</html>
